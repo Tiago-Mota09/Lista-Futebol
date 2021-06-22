@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!-- salvar como DOM-p7.html -->
+<html lang="pt-br">
+	<head>
+		<title>Jogadores de Futebol</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="DOM-p7.css">
+    <script src="DOM-p7.js"></script>
+	</head>
+	<body>
+    <img src="img/jogador.png"  title="A Amazona Guerreira">
+    <div class="corpo">
+		<h1>Escale seu Time dos Sonhos</h1>
+		<b>Nome do Jogador:</b> <br>
+    
+		<input 	type="text" id="nome" size="50"
+				placeholder="Digite o nome do seu jogador aqui" class="digite">
+		<br>
+
+    <input type="button" value="ADICIONAR" id="btnA" onclick="Adicionar()">
+		<input type="button" value="REMOVER"  id="btnR" onclick="Remover()">
+		<hr>
+
+		<h2>JOGADORES CONFIRMADOS</h2>
+
+		<select id="listaJogadores">
+		</select>
+  </div>
+	</body>
+</html>
